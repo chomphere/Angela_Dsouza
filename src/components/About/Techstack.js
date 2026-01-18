@@ -17,7 +17,6 @@ import Docker from "../../Assets/TechIcons/Docker.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import Cypress from "../../Assets/TechIcons/Cypress.svg";
 import C from "../../Assets/TechIcons/C.svg";
-import Unity from "../../Assets/TechIcons/Unity.svg";
 
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
@@ -70,10 +69,7 @@ function Techstack() {
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <img src={Unity} alt="unity" />
-        <div className="tech-icons-text">Unity</div>
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="docker" />
         <div className="tech-icons-text">Docker</div>

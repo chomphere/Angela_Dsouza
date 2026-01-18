@@ -16,7 +16,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
-    <section>
+    <section style={{ flex: 1 }}>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">

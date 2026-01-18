@@ -11,7 +11,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" style={{ flex: 1 }}>
       <Particle />
       <Container>
         <h1 className="project-heading">
